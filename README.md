@@ -111,7 +111,7 @@ This will start the Flask server on `http://127.0.0.1:5000/`. You can open this 
 
 2. **Run the `send_email.sh` script**: This script will send the phishing email to the target. It automates the process of calling the `/send_email` endpoint to send the phishing email:
    ```bash
-   ./send_email.sh sqlite3 database/activities.db
+   ./send_email.sh
     ```
 3. **Check the collected data**: The collected passwords can be seen on the databases:
     ```bash
