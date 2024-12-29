@@ -109,14 +109,21 @@ This will start the Flask server on `http://127.0.0.1:5000/`. You can open this 
 
 1. **Configure the email content**: Before running the attack, make sure your `.env` file is correctly configured with the necessary email and server details.
 
-2. **Run the `send_email.sh` script**: This script will send the phishing email to the target. It automates the process of calling the `/send_email` endpoint to send the phishing email:
+2. **Make the script executable**:
+   ```bash
+   chmod +x send_email.sh
+    ```
+   
+4. **Run the `send_email.sh` script**: This script will send the phishing email to the target. It automates the process of calling the `/send_email` endpoint to send the phishing email:
    ```bash
    ./send_email.sh
     ```
-3. **Check the collected data**: The collected passwords can be seen on the databases:
+   
+5. **Check the collected data**: The collected passwords can be seen on the databases:
     ```bash
     sqlite3 database/activities.db
     ```
+    
 Once in the database, check the passwords by entering the following request:
 ```sql
 SELECT * FROM captured_passwords;
