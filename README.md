@@ -12,7 +12,7 @@ The attack itself is **in French** (since it simulates a phishing email targeted
 
 <br>
 
-## 🗂️ Project Structure
+## 🗂️ Project structure
 
 Here's the current structure of the project:
 
@@ -38,7 +38,7 @@ phishing-simulator/
 
 <br>
 
-## 🕵️‍♂️ How the Attack Works 
+## 🕵️‍♂️ How the attack works 
 
 1. The server sends an email to the victim with a link to a fake activation page.
 2. The victim clicks the 'activate my account' button and is taken to a fake login page.
@@ -51,12 +51,12 @@ phishing-simulator/
 
 <br>
 
-## ⚡ Quick Start
+## ⚡ Quick start
 
 Before you can simulate the attack, you need to set up the project and configure the environment variables.
 
 
-### 1. Clone the Repository 📥
+### 1. Clone the repository 📥
 
 ```bash
 git clone https://github.com/Ad882/phishing-simulator.git
@@ -64,7 +64,7 @@ cd phishing-simulator
 ```
 
 --- 
-### 2. Install Dependencies 🧑‍💻
+### 2. Install dependencies 🧑‍💻
 
 Make sure you have Python 3.7+ installed. Then, install the necessary dependencies with:
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ```
 
 --- 
-### 3. Configure the `.env` File ⚙️
+### 3. Configure the `.env` file ⚙️
 
 Create a `.env` file in the root directory of the project. This file contains sensitive configuration data, such as email credentials. Make sure to replace the values with your own.
 
@@ -93,7 +93,7 @@ Gmail is recommended because:
 - It allows SMTP access (must be enabled in settings).
   
 --- 
-### 4. Run the Server 🚀
+### 4. Run the server 🚀
 
 To start the server, use the following command:
 
@@ -105,7 +105,7 @@ This will start the Flask server on `http://127.0.0.1:5000/`. You can open this 
 
 <br>
 
-## 🎯 How to Simulate an Attack 
+## 🎯 How to simulate an attack 
 
 1. **Configure the email content**: Before running the attack, make sure your `.env` file is correctly configured with the necessary email and server details.
 
