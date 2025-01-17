@@ -145,3 +145,18 @@ Install them using:
 ```bash
 pip install -r requirements.txt
 ```
+
+
+<br>
+
+## 🛡️ Protection
+To protect against phishing, please follow these few recommendations:
+- Check the sender's address.
+- Read the email carefully:
+  Pay particular attention to
+  - spelling mistakes
+  - sense of urgency often used
+- Verify the link provided to click (by hovering over the link and checking the bottom-left corner of the browser)
+- Use tools to verify the link in case of doubt: (e.g., [Google safe-browsing](https://transparencyreport.google.com/safe-browsing/search))
+
+**Protect yourself at all time!**
